@@ -1,0 +1,15 @@
+#-------------------------------------------------------------------------------
+# Name:        module1
+# Purpose:
+#
+# Author:      Craig
+#
+# Created:     25/11/2015
+# Copyright:   (c) Craig 2015
+# Licence:     <your licence>
+#-------------------------------------------------------------------------------
+
+import collections
+f = open('Wooden.txt', 'r')
+
+print(collections.Counter(f))
