@@ -10,7 +10,7 @@
 #-------------------------------------------------------------------------------
 
 import time
-MyFile=open('Wooden.txt','r')
+MyFile=open('lyrical.txt','r')
 words={}
 count=0
 given_words=['The','document','1']
