@@ -9,19 +9,27 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-
+import time
 MyFile=open('Wooden.txt','r')
 words={}
 count=0
 given_words=['The','document','1']
 
+songout = open('Output.txt','w')
+
 
 from collections import defaultdict
+
 
 def leaders():
     counts = defaultdict(int)
     for x in MyFile.read().split():
         counts[x] += 1
     return sorted(counts.items(), reverse=True, key=lambda tup: tup[1])
-print(leaders())
 
+
+start = time.time()
+songout.write('\n'.join('%s %s' % x for x in leaders()))
+end = time.time()
+
+print (end - start)
