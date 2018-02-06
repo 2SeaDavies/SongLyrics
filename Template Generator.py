@@ -32,13 +32,13 @@ Templates = open('Templates.txt','w')
 start = time.time()
 
 
-with open("1n.txt") as f1,open("Wooden.txt") as f2:
+with open("1n.txt") as f1,open("lyrical.txt") as f2:
     words=set(line.strip() for line in f1)   #create a set of words from dictionary file
 
     #why sets? sets provide an O(1) lookup, so overall complexity is O(N)
 
     #now loop over each line of other file (word, freq file)
-    for x in MyFile.read().split():
+    for x in f2.read().split():
           #fetch word,freq
         if x in words:        #if word is found in words set then print it
             print (x)
