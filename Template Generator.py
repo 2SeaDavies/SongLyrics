@@ -10,7 +10,7 @@
 #-------------------------------------------------------------------------------
 
 import time
-MyFile=open('lyrical.txt','r')
+MyFile=open('Output.txt','r')
 words={}
 count=0
 
