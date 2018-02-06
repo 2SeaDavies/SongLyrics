@@ -18,6 +18,10 @@ oneN=open('1n.txt','r')
 twoN=open('2n.txt','r')
 threeN=open('3n.txt','r')
 fourN=open('4n.txt','r')
+oneA=open('1a.txt','r')
+twoA=open('2a.txt','r')
+threeA=open('3a.txt','r')
+fourA=open('4a.txt','r')
 
 
 
