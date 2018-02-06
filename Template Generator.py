@@ -14,6 +14,13 @@ MyFile=open('Output.txt','r')
 words={}
 count=0
 
+oneN=open('1n.txt','r')
+twoN=open('2n.txt','r')
+threeN=open('3n.txt','r')
+fourN=open('4n.txt','r')
+
+
+
 songout = open('Output.txt','w')
 
 
