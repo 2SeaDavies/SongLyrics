@@ -1,3 +1,4 @@
+a
 ace
 aft
 ain
@@ -138,6 +139,7 @@ deft
 dense
 dere
 dern
+me
 dim
 dinge
 dink
@@ -168,6 +170,7 @@ earned
 eath
 ebb
 echt
+me
 edge
 eight
 eighth
@@ -270,6 +273,7 @@ hex
 hick
 hipped
 hit
+a
 hoar
 hoarse
 hogged
