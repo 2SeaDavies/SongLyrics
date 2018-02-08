@@ -29,7 +29,31 @@ from collections import defaultdict
 start = time.time()
 
 for x in MyFile.readlines():
-    songout.write(x + "\n")
+    for word in x:
+        if word == "me":
+            word.replace('me', 'baller')
+
+
+
+MyFile=open('Wooden.txt','r')
+
+for x in MyFile.readlines():
+    print(x)
+    songout.write(x)
+
+
+# Read in the file
+#with open('wooden.txt', 'r') as file,open("1n.txt") as n1 :
+ # filedata = file.read()
+
+# Replace the target string
+#filedata = filedata.replace('ram', 'abcd')
+
+# Write the file out again
+#with open('file.txt', 'w') as file:
+ # file.write(filedata)
+
+
 
 end = time.time()
 
