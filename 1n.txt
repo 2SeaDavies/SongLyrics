@@ -1,3 +1,9 @@
+me
+you
+i
+he
+she
+they
 abb
 abbs
 ace
@@ -2608,7 +2614,6 @@ lift
 lifts
 ligne
 lignes
-like
 likes
 lilt
 lilts

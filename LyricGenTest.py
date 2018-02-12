@@ -25,21 +25,143 @@ with open("1n.txt") as n1, open("2n.txt") as n2, open("3n.txt") as n3, open("4n.
     #Templ = set(line.strip()) for line in MyFile)
     counter = 0
     for x in MyFile.read().split():
-        number = random.randint(0, 10)
+        number = random.randint(0, 20)
         count = 0
 
         if x == "n1":
             counter +=1
-            print (number)
-            print (count)
-            print ("counter" + str(counter))
+
             for y in Out:
                 if y in onenouns:
                     if count == number:
                         print (y)
-                        print (count)
+
 
                     count+=1
+        elif x == "n2":
+            counter += 1
+
+            for y in Out:
+                if y in twonouns:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "n3":
+            counter += 1
+
+            for y in Out:
+                if y in threenouns:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+        elif x == "n4":
+            counter += 1
+
+            for y in Out:
+                if y in fournouns:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "v1":
+            counter += 1
+
+            for y in Out:
+                if y in oneverb:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "v2":
+            counter += 1
+
+            for y in Out:
+                if y in twoverb:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "v3":
+            counter += 1
+
+            for y in Out:
+                if y in threeverb:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "v4":
+            counter += 1
+
+            for y in Out:
+                if y in fourverb:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "a1":
+            counter += 1
+
+            for y in Out:
+                if y in oneadj:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "a2":
+            counter += 1
+
+            for y in Out:
+                if y in twoadj:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "a3":
+            counter += 1
+
+            for y in Out:
+                if y in threeadj:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        elif x == "a4":
+            counter += 1
+
+            for y in Out:
+                if y in fouradj:
+                    if count == number:
+                        print (y)
+
+
+                    count += 1
+
+        else:
+            print(x)
+
+
 
 
 
