@@ -431,7 +431,6 @@ shred
 shrimp
 shrine
 sill
-sing
 sink
 site
 size

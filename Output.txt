@@ -106,7 +106,6 @@ run 9686
 put 9612
 hard 9593
 stop 9507
-ya 9482
 inside 9475
 these 9283
 last 9273
@@ -157,11 +156,8 @@ song 7291
 blue 7280
 die 7237
 thought 7235
-
 play 7201
 while 7195
-
-done 7066
 remember 7063
 real 7055
 care 7045
@@ -251,7 +247,6 @@ friends 5200
 mean 5199
 sure 5197
 today 5197
-till 5190
 christmas 5161
 line 5141
 though 5090
