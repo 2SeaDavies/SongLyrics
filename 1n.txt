@@ -2490,7 +2490,6 @@ knosp
 knosps
 knout
 knouts
-know
 knowe
 knowes
 knows

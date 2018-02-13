@@ -1,118 +1,78 @@
-
 i 428980
 you 426022
-
 me 202356
 my 170985
-
 your 119638
-
-i'm 105837
-
 love 92503
-
 we 74176
 know 72533
-
 like 63597
 oh 63029
-
 now 51950
-
 down 45588
 one 44909
 go 44272
-
 time 43474
 get 43447
-you're 42947
-
 baby 41123
 see 41090
 want 39814
-
 she 38037
 they 37629
 come 36288
-
 yeah 34562
 he 34177
 say 34140
-
 her 31688
-
 let 31509
-i'll 31266
-
 take 30194
-
 make 29712
 back 28853
-
 away 27345
-
 heart 27081
 life 26449
-i've 26244
 here 25297
 feel 25252
 day 24979
 night 24744
-
-been 24032
-
 need 23163
 man 22747
-where 22583
 tell 22394
-
 little 20709
 world 20507
-
 his 20212
-
 give 20092
 good 19836
-
 girl 19084
 or 18984
 again 18823
 think 18655
-
 then 18337
 who 18269
-
 long 17462
-
 eyes 17277
-
 won't 16992
 every 16940
-
 home 16385
-
 look 15995
 keep 15862
 us 15842
 find 15652
-
 nothing 14630
 mind 14617
 wanna 14244
-
 hear 13726
 them 13259
 things 13131
 going 13082
-
+an 12996
 him 12921
 gone 12646
 hold 12328
 much 12298
 better 12253
-she's 12208
+
 cause 12176
-you'll 11584
 believe 11547
 into 11535
 before 11498
@@ -120,14 +80,14 @@ really 11437
 something 11280
 old 11205
 live 11153
-you've 11130
+
 tonight 11085
 than 10850
 light 10798
 alone 10758
 gotta 10714
 off 10697
-i'd 10662
+
 new 10476
 try 10449
 leave 10438
@@ -144,7 +104,7 @@ stay 9799
 has 9786
 call 9769
 run 9686
-he's 9618
+
 put 9612
 hard 9593
 stop 9507
@@ -199,10 +159,10 @@ song 7291
 blue 7280
 die 7237
 thought 7235
-let's 7212
+
 play 7201
 while 7195
-we'll 7181
+
 done 7066
 remember 7063
 real 7055

@@ -26,6 +26,7 @@ with open("1n.txt") as n1, open("2n.txt") as n2, open("3n.txt") as n3, open("4n.
     counter = 0
     for x in MyFile.read().split():
         number = random.randint(0, 20)
+
         count = 0
 
         if x == "n1":
@@ -35,6 +36,7 @@ with open("1n.txt") as n1, open("2n.txt") as n2, open("3n.txt") as n3, open("4n.
                 if y in onenouns:
                     if count == number:
                         print (y)
+                        
 
 
                     count+=1
