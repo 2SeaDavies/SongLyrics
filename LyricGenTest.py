@@ -1,9 +1,6 @@
 import random
 
-
-
-
-with open("1n.txt") as n1, open("2n.txt") as n2, open("3n.txt") as n3, open("4n.txt") as n4, open(
+with open("1nClean.txt") as n1, open("2n.txt") as n2, open("3n.txt") as n3, open("4n.txt") as n4, open(
         "1a.txt") as a1, open("2a.txt") as a2, open("3a.txt") as a3, open("4a.txt") as a4, open(
     "1v.txt") as v1, open("2v.txt") as v2, open("3v.txt") as v3, open("4v.txt") as v4, open("Output.txt") as Ou,open("Manualtemplate.txt") as MyFile:
     onenouns = set(line.strip() for line in n1)  # create a set of words from dictionary file
@@ -25,7 +22,7 @@ with open("1n.txt") as n1, open("2n.txt") as n2, open("3n.txt") as n3, open("4n.
     #Templ = set(line.strip()) for line in MyFile)
     counter = 0
     for x in MyFile.read().split():
-        number = random.randint(0, 20)
+        number = random.randint(0, 10)
 
         count = 0
 
@@ -36,7 +33,7 @@ with open("1n.txt") as n1, open("2n.txt") as n2, open("3n.txt") as n3, open("4n.
                 if y in onenouns:
                     if count == number:
                         print (y)
-                        
+
 
 
                     count+=1

@@ -35,7 +35,6 @@ here 25297
 feel 25252
 day 24979
 night 24744
-need 23163
 man 22747
 tell 22394
 little 20709
@@ -59,7 +58,6 @@ keep 15862
 us 15842
 find 15652
 nothing 14630
-mind 14617
 wanna 14244
 hear 13726
 them 13259
