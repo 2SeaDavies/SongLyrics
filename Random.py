@@ -9,7 +9,10 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
+
+
 import time
+import random
 MyFile=open('lyrical.txt','r')
 words={}
 count=0
@@ -18,19 +21,23 @@ songout = open('Output.txt','w')
 
 
 from collections import defaultdict
+lol = []
 
 
-def leaders():
-    counts = defaultdict(int)
-    for x in MyFile.read().split():
-        counts[x] += 1
-    return sorted(counts.items(), reverse=True, key=lambda tup: tup[1])
+for x in MyFile.read().split():
+    lol.append(x)
+
 
 
 start = time.time()
-#print('\n'.join('%s %s' % x for x in leaders()))
-for x in leaders():
-    print (x)
+
+for i in range(100):
+    number = random.randint(0, len(lol))
+    print(lol[number])
+
+
+
+
 end = time.time()
 
 print (end - start)
