@@ -1,8 +1,8 @@
 import random
 
 with open("1nClean.txt") as n1, open("2nClean.txt") as n2, open("3nClean.txt") as n3, open("4nClean.txt") as n4, open(
-        "1a.txt") as a1, open("2a.txt") as a2, open("3a.txt") as a3, open("4a.txt") as a4, open(
-    "1v.txt") as v1, open("2v.txt") as v2, open("3v.txt") as v3, open("4v.txt") as v4, open("Output.txt") as Ou,open("Manualtemplate.txt") as MyFile:
+        "1aClean.txt") as a1, open("2aClean.txt") as a2, open("3aClean.txt") as a3, open("4aClean.txt") as a4, open(
+    "1vClean.txt") as v1, open("2vClean.txt") as v2, open("3vClean.txt") as v3, open("4vClean.txt") as v4, open("Output.txt") as Ou,open("Manualtemplate.txt") as MyFile:
     onenouns = set(line.strip() for line in n1)  # create a set of words from dictionary file
     twonouns = set(line.strip() for line in n2)
     threenouns = set(line.strip() for line in n3)
