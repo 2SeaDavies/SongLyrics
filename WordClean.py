@@ -3,8 +3,8 @@
 
 
 
-clean = open('4aClean.txt','w')
-with open("4a.txt") as n1, open ("adjectives.txt")as nouns:
+clean = open('4vClean.txt','w')
+with open("4v.txt") as n1, open ("verbs.txt")as nouns:
 
 
 
