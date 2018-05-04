@@ -3,15 +3,18 @@ import random
 with open("1nClean.txt") as n1, open("2nClean.txt") as n2, open("3nClean.txt") as n3, open("4nClean.txt") as n4, open(
         "1aClean.txt") as a1, open("2aClean.txt") as a2, open("3aClean.txt") as a3, open("4aClean.txt") as a4, open(
     "1vClean.txt") as v1, open("2vClean.txt") as v2, open("3vClean.txt") as v3, open("4vClean.txt") as v4, open("Output.txt") as Ou,open("Manualtemplate.txt") as MyFile:
-    onenouns = set(line.strip() for line in n1)  # create a set of words from dictionary file
+
+
+    # create a sets of words from dictionary file
+    onenouns = set(line.strip() for line in n1)
     twonouns = set(line.strip() for line in n2)
     threenouns = set(line.strip() for line in n3)
     fournouns = set(line.strip() for line in n4)
-    oneadj = set(line.strip() for line in a1)  # create a set of words from dictionary file
+    oneadj = set(line.strip() for line in a1)
     twoadj = set(line.strip() for line in a2)
     threeadj = set(line.strip() for line in a3)
     fouradj = set(line.strip() for line in a4)
-    oneverb = set(line.strip() for line in v1)  # create a set of words from dictionary file
+    oneverb = set(line.strip() for line in v1)
     twoverb = set(line.strip() for line in v2)
     threeverb = set(line.strip() for line in v3)
     fourverb = set(line.strip() for line in v4)
@@ -19,7 +22,12 @@ with open("1nClean.txt") as n1, open("2nClean.txt") as n2, open("3nClean.txt") a
     for i in Ou.read().split():
         Out.append(i)
 
-    #Templ = set(line.strip()) for line in MyFile)
+
+
+
+    #this contains a debug counter, it doesn't do anything anymore
+
+    #checks each word in the file and replaces it with a 2 character representation
     counter = 0
     for x in MyFile.read().split():
         number = random.randint(0, 20)
