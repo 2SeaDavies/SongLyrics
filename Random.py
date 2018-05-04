@@ -22,7 +22,7 @@ count = 0
 length = 200
 songout = open('Output.txt','w')
 lines = []
-
+#create an array of line lengths
 while length > 0:
     y = random.randint(3,10)
     lines.append(y)
@@ -32,14 +32,14 @@ while length > 0:
 
 lol = []
 
-
+#populate an array of words from the dictionary
 for x in MyFile.read().split():
     lol.append(x)
 
-
+#create an array and start a timer
 words = []
 start = time.time()
-
+# add random words to the array
 for i in lines:
     line = ""
     for j in range (i):

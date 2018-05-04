@@ -10,6 +10,7 @@
 #-------------------------------------------------------------------------------
 
 import time
+#open the files
 MyFile=open('lyrical.txt','r')
 words={}
 count=0
@@ -19,16 +20,17 @@ songout = open('Output.txt','w')
 
 from collections import defaultdict
 
-
-def leaders():
+#write the words, their counts and sort the words by count
+def sorter():
     counts = defaultdict(int)
     for x in MyFile.read().split():
         counts[x] += 1
     return sorted(counts.items(), reverse=True, key=lambda tup: tup[1])
 
-
+#time how long it takes
 start = time.time()
-songout.write('\n'.join('%s %s' % x for x in leaders()))
+
+songout.write('\n'.join('%s %s' % x for x in sorter()))
 end = time.time()
 
 print (end - start)

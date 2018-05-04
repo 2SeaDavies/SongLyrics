@@ -8,7 +8,7 @@
 # Copyright:   (c) Craig 2015
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
-
+# open files
 import time
 MyFile=open('Wooden.txt','r')
 words={}
@@ -31,27 +31,26 @@ Templates = open('Templates.txt','w')
 
 start = time.time()
 
-
+#create sets of words from files
 with open("1n.txt") as n1,open("2n.txt") as n2,open("3n.txt") as n3,open("4n.txt") as n4,open("1a.txt") as a1,open("2a.txt") as a2,open("3a.txt") as a3,open("4a.txt") as a4,open("1v.txt") as v1,open("2v.txt") as v2,open("3v.txt") as v3,open("4v.txt") as v4,open("Wooden.txt") as f2:
-    onenouns=set(line.strip() for line in n1)   #create a set of words from dictionary file
+    onenouns=set(line.strip() for line in n1)
     twonouns = set(line.strip() for line in n2)
     threenouns = set(line.strip() for line in n3)
     fournouns = set(line.strip() for line in n4)
-    oneadj = set(line.strip() for line in a1)  # create a set of words from dictionary file
+    oneadj = set(line.strip() for line in a1)
     twoadj = set(line.strip() for line in a2)
     threeadj = set(line.strip() for line in a3)
     fouradj = set(line.strip() for line in a4)
-    oneverb = set(line.strip() for line in v1)  # create a set of words from dictionary file
+    oneverb = set(line.strip() for line in v1)
     twoverb = set(line.strip() for line in v2)
     threeverb = set(line.strip() for line in v3)
     fourverb = set(line.strip() for line in v4)
 
-    #why sets? sets provide an O(1) lookup, so overall complexity is O(N)
 
-    #now loop over each line of other file (word, freq file)
+
     for x in f2.read().split():
-          #fetch word,freq
-        if x in onenouns:        #if word is found in words set then print it
+         #if the word is found, print the character
+        if x in onenouns:
             Templates.write("1n")
         elif x in twonouns:
             Templates.write("2n")
@@ -59,7 +58,7 @@ with open("1n.txt") as n1,open("2n.txt") as n2,open("3n.txt") as n3,open("4n.txt
             Templates.write("3n")
         elif x in fournouns:
             Templates.write("4n")
-        elif x in oneadj:        #if word is found in words set then print it
+        elif x in oneadj:
             Templates.write("1a")
         elif x in twoadj:
             Templates.write("2a")
@@ -67,7 +66,7 @@ with open("1n.txt") as n1,open("2n.txt") as n2,open("3n.txt") as n3,open("4n.txt
             Templates.write("3a")
         elif x in fouradj:
             Templates.write("4a")
-        elif x in oneverb:        #if word is found in words set then print it
+        elif x in oneverb:
             Templates.write("1v")
         elif x in twoverb:
             Templates.write("2v")
