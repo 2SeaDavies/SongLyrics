@@ -9,12 +9,15 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
+
+#import and open the file
 import time
 import random
-from collections import defaultdict
 MyFile = open('lyrical.txt','r')
 words = {}
 count = 0
+
+
 
 length = 200
 songout = open('Output.txt','w')
@@ -26,8 +29,7 @@ while length > 0:
     length -= y
     print(length)
 
-#for i in lines:
-   # print (i)
+
 lol = []
 
 
@@ -44,7 +46,6 @@ for i in lines:
         number = random.randint(0, len(lol))
         line+= " "
         line+= lol[number]
-       # print(lol[number])
     words.append(line)
 
 for k in words:
